@@ -1,0 +1,204 @@
+{
+	"texture": "zombie.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [32, 0], "sizeAdd": 0.5}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "drowned",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"submodels": [
+						{
+							"id": "dright_leg",
+							"invertAxis": "xy",
+							"translate": [-1.9, -12, 0],
+							"boxes": [
+								{"coordinates": [1.9, -12, -2, 4, 12, 4], "textureOffset": [0, 16]}
+							]
+						},
+						{
+							"id": "dleft_leg",
+							"invertAxis": "xy",
+							"translate": [1.9, -12, 0],
+							"boxes": [
+								{"coordinates": [-5.9, -12, -2, 4, 12, 4], "textureOffset": [0, 16]}
+							]
+						},
+						{
+							"id": "dright_arm",
+							"invertAxis": "xy",
+							"translate": [-5, -2, 0],
+							"boxes": [
+								{"coordinates": [9, -10, -2, 4, 12, 4], "textureOffset": [40, 16]}
+							]
+						},
+						{
+							"id": "dleft_arm",
+							"invertAxis": "xy",
+							"translate": [5, -2, 0],
+							"boxes": [
+								{"coordinates": [-13, -10, -2, 4, 12, 4], "textureOffset": [40, 16]}
+							]
+						},
+						{
+							"id": "dbody",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-4, -12, -2, 8, 12, 4], "textureOffset": [16, 16]}
+							]
+						},
+						{
+							"id": "dhead",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [0, 0]}
+							]
+						}
+					]
+				},
+				{
+					"id": "drowned_stonegolem",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"submodels": [
+						{
+							"id": "dsright_leg",
+							"invertAxis": "xy",
+							"translate": [-1.9, -12, 0],
+							"boxes": [
+								{"coordinates": [1.9, -12, -2, 4, 12, 4], "textureOffset": [0, 48]}
+							]
+						},
+						{
+							"id": "dsleft_leg",
+							"invertAxis": "xy",
+							"translate": [1.9, -12, 0],
+							"boxes": [
+								{"coordinates": [-5.9, -12, -2, 4, 12, 4], "textureOffset": [0, 48]}
+							]
+						},
+						{
+							"id": "dsright_arm",
+							"invertAxis": "xy",
+							"translate": [-5, -2, 0],
+							"boxes": [
+								{"coordinates": [11, -10, -2, 4, 6, 4], "textureOffset": [40, 54], "sizeAdd": 0.5},
+								{"coordinates": [11, 1, -2, 4, 6, 4], "textureOffset": [40, 54], "sizeAdd": 0.5},
+								{"coordinates": [11, -3, -2, 4, 8, 4], "textureOffset": [40, 48], "sizeAdd": 1}
+							]
+						},
+						{
+							"id": "dsleft_arm",
+							"invertAxis": "xy",
+							"translate": [5, -2, 0],
+							"boxes": [
+								{"coordinates": [-15, 1, -2, 4, 6, 4], "textureOffset": [40, 54], "sizeAdd": 0.5},
+								{"coordinates": [-15, -3, -2, 4, 8, 4], "textureOffset": [40, 48], "sizeAdd": 1},
+								{"coordinates": [-15, -10, -2, 4, 6, 4], "textureOffset": [40, 38], "sizeAdd": 0.5}
+							]
+						},
+						{
+							"id": "dsbody",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-4, -12, -2, 8, 7, 4], "textureOffset": [16, 53], "sizeAdd": 0.5},
+								{"coordinates": [-4, -3, -2, 8, 5, 4], "textureOffset": [16, 48], "sizeAdd": 2}
+							]
+						},
+						{
+							"id": "dshead",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-4, 4, -4, 8, 8, 8], "textureOffset": [0, 32], "sizeAdd": 0.5}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"dshead.rx": "head.rx",
+					"dshead.ry": "head.ry",
+					"dshead.rz": "head.rz",
+					"dsleft_arm.rx": "left_arm.rx+torad(60)",
+					"dsleft_arm.ry": "left_arm.ry",
+					"dsleft_arm.rz": "left_arm.rz",
+					"dsright_arm.rx": "right_arm.rx+torad(60)",
+					"dsright_arm.ry": "right_arm.ry",
+					"dsright_arm.rz": "right_arm.rz",
+					"dsleft_leg.rx": "left_leg.rx",
+					"dsleft_leg.ry": "left_leg.ry",
+					"dsleft_leg.rz": "left_leg.rz",
+					"dsright_leg.rx": "right_leg.rx",
+					"dsright_leg.ry": "right_leg.ry",
+					"dsright_leg.rz": "right_leg.rz",
+					"drowned_stonegolem.ty": "if(max_health == 60,-24,1000000)",
+					"dhead.rx": "head.rx",
+					"dhead.ry": "head.ry",
+					"dhead.rz": "head.rz",
+					"dleft_arm.rx": "left_arm.rx",
+					"dleft_arm.ry": "left_arm.ry",
+					"dleft_arm.rz": "left_arm.rz",
+					"dright_arm.rx": "right_arm.rx",
+					"dright_arm.ry": "right_arm.ry",
+					"dright_arm.rz": "right_arm.rz",
+					"dleft_leg.rx": "left_leg.rx",
+					"dleft_leg.ry": "left_leg.ry",
+					"dleft_leg.rz": "left_leg.rz",
+					"dright_leg.rx": "right_leg.rx",
+					"dright_leg.ry": "right_leg.ry",
+					"dright_leg.rz": "right_leg.rz",
+					"drowned.ty": "if(max_health == 60,1000000,-24)"
+				}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [1.9, -12, 0]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0]
+		}
+	]
+}

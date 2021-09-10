@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/stone_sword"
+    },
+
+    "overrides": [
+        { "predicate": {"custom_model_data": 100}, "model": "darkpower:item/throwed_skeleton_reaper"},
+        { "predicate": {"custom_model_data": 101}, "model": "darkpower:item/throwed_ancient_sword"}
+
+    ]
+}
