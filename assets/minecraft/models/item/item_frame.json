@@ -1,0 +1,10 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/item_frame"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 1000001 }, "model": "darkpower:item/darken_diamond_block" },
+        { "predicate": { "custom_model_data": 1000002 }, "model": "darkpower:item/ancient_mossy_stone_bricks" }
+    ]
+}
