@@ -187,6 +187,15 @@
 					"sright_arm.rx": "right_arm.rx",
 					"sright_arm.ry": "right_arm.ry",
 					"sright_arm.rz": "right_arm.rz",
+
+					"sright_arm.tx": "right_arm.tx + 10",
+					"sright_arm.ty": "right_arm.ty",
+					"sright_arm.tz": "right_arm.tz",
+
+					"sleft_arm.tx": "left_arm.tx - 10",
+					"sleft_arm.ty": "left_arm.ty",
+					"sleft_arm.tz": "left_arm.tz",
+
 					"sleft_leg.rx": "left_leg.rx",
 					"sleft_leg.ry": "left_leg.ry",
 					"sleft_leg.rz": "left_leg.rz",

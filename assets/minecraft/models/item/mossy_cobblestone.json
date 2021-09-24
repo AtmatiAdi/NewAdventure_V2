@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/mossy_cobblestone",
+    "overrides": [
+        { "predicate": {"custom_model_data": 100}, "model": "darkpower:item/mossy_cobblestone"}
+
+    ]
+}
