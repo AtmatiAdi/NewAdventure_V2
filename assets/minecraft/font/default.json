@@ -2,27 +2,6 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "minecraft:custom/icon.png",
-            "ascent": 2,
-            "height": 27,
-            "chars": ["\uE000"]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:custom/icon_half.png",
-            "ascent": 2,
-            "height": 27,
-            "chars": ["\uE001"]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:custom/icon_off.png",
-            "ascent": 2,
-            "height": 27,
-            "chars": ["\uE002"]
-        },
-        {
-            "type": "bitmap",
             "file": "space:font/space_split.png",
             "ascent": -32768,
             "height": -3,
