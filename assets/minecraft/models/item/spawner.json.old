@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:block/spawner",
+    "overrides": [
+        { "predicate": { "custom_model_data": 1000001 }, "model": "darkpower:block/darken_diamond_block" },
+        { "predicate": { "custom_model_data": 1000002 }, "model": "darkpower:block/ancient_mossy_stone_bricks" },
+        { "predicate": { "custom_model_data": 1000400 }, "model": "darkpower:block/ancient_mossy_stone_bricks_gold_pattern_01"},
+        { "predicate": { "custom_model_data": 1000401 }, "model": "darkpower:block/ancient_mossy_stone_bricks_gold_pattern_02"},
+        { "predicate": { "custom_model_data": 1000402 }, "model": "darkpower:block/ancient_mossy_stone_bricks_gold_pattern_03"},
+        { "predicate": { "custom_model_data": 1000403 }, "model": "darkpower:block/ancient_mossy_stone_bricks_gold_pattern_04"}
+    ]
+}

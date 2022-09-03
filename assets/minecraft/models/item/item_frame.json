@@ -1,18 +1,44 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "minecraft:item/item_frame"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/item_frame"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1000001
+      },
+      "model": "darkpower:item/darken_diamond"
     },
-    "overrides": [
-        { "predicate": { "custom_model_data": 1000001 }, "model": "darkpower:item/darken_diamond_block" },
-        { "predicate": { "custom_model_data": 1000002 }, "model": "darkpower:item/ancient_mossy_stone_bricks" },
-        { "predicate": { "custom_model_data": 1000202 }, "model": "darkpower:item/mayan_figure_01"},
-        { "predicate": { "custom_model_data": 1000300 }, "model": "darkpower:item/oranment_01"},
-        { "predicate": { "custom_model_data": 1000301 }, "model": "darkpower:item/oranment_02"},
-        { "predicate": { "custom_model_data": 1000400 }, "model": "darkpower:item/ancient_mossy_stone_bricks_gold_pattern_01"},
-        { "predicate": { "custom_model_data": 1000401 }, "model": "darkpower:item/ancient_mossy_stone_bricks_gold_pattern_02"},
-        { "predicate": { "custom_model_data": 1000402 }, "model": "darkpower:item/ancient_mossy_stone_bricks_gold_pattern_03"},
-        { "predicate": { "custom_model_data": 1000403 }, "model": "darkpower:item/ancient_mossy_stone_bricks_gold_pattern_04"}
-        
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 1000002
+      },
+      "model": "darkpower:item/ancient_mossy_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000101
+      },
+      "model": "darkpower:item/decoration/path_small_stones"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000202
+      },
+      "model": "darkpower:item/statule/stone_king"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000300
+      },
+      "model": "darkpower:item/ornament/gold_skull"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000301
+      },
+      "model": "darkpower:item/ornament/gold_pattern_dot"
+    }
+  ]
 }
