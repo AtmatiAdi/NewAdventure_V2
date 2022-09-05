@@ -48,6 +48,66 @@
         "custom_model_data": 1000008
       },
       "model": "darkpower:block/quartz_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000009
+      },
+      "model": "darkpower:block/aggregator_glowstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000010
+      },
+      "model": "darkpower:block/holy_stone_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000011
+      },
+      "model": "darkpower:block/apatite_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000012
+      },
+      "model": "darkpower:block/ancient_ice"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000013
+      },
+      "model": "darkpower:block/blight_berry_leaves"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000015
+      },
+      "model": "darkpower:block/blight_berry_ripe_leaves"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000016
+      },
+      "model": "darkpower:block/essence_crystal_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000017
+      },
+      "model": "darkpower:block/soul_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000018
+      },
+      "model": "darkpower:block/cane_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000019
+      },
+      "model": "darkpower:block/lead_ore"
     }
   ]
 }

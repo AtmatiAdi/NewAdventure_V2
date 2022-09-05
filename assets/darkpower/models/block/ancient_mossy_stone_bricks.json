@@ -1,6 +1,6 @@
 {
-    "parent": "darkpower:block/cube_spawner_all",
-    "textures": {
-        "all": "darkpower:block/ancient_mossy_stone_bricks"
-    }
+  "parent": "darkpower:block/cube_spawner_all",
+  "textures": {
+    "all": "darkpower:block/ancient_mossy_stone_bricks"
+  }
 }

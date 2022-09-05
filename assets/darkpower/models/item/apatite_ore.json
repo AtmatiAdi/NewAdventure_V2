@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "darkpower:block/shined_diamond"
+    "all": "darkpower:block/apatite_ore"
   }
 }

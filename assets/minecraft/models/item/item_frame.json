@@ -54,6 +54,66 @@
     },
     {
       "predicate": {
+        "custom_model_data": 1000009
+      },
+      "model": "darkpower:item/aggregator_glowstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000010
+      },
+      "model": "darkpower:item/holy_stone_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000011
+      },
+      "model": "darkpower:item/apatite_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000012
+      },
+      "model": "darkpower:item/ancient_ice"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000013
+      },
+      "model": "darkpower:item/blight_berry_leaves"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000015
+      },
+      "model": "darkpower:item/blight_berry_ripe_leaves"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000016
+      },
+      "model": "darkpower:item/essence_crystal_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000017
+      },
+      "model": "darkpower:item/soul_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000018
+      },
+      "model": "darkpower:item/cane_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000019
+      },
+      "model": "darkpower:item/lead_ore"
+    },
+    {
+      "predicate": {
         "custom_model_data": 1000101
       },
       "model": "darkpower:item/decoration/path_small_stones"

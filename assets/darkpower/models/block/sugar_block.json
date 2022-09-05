@@ -1,6 +1,6 @@
 {
-    "parent": "darkpower:block/cube_spawner_all",
-    "textures": {
-        "all": "darkpower:block/sugar_block"
-    }
+  "parent": "darkpower:block/cube_spawner_all",
+  "textures": {
+    "all": "darkpower:block/sugar_block"
+  }
 }

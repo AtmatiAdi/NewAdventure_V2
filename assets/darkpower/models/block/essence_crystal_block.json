@@ -1,6 +1,6 @@
 {
   "parent": "darkpower:block/cube_spawner_all",
   "textures": {
-    "all": "darkpower:block/holy_stone_brick"
+    "all": "darkpower:block/essence_crystal_block"
   }
 }

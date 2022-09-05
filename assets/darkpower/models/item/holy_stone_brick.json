@@ -1,7 +1,6 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "darkpower:block/holystone_brick"
-	}
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "darkpower:block/holy_stone_brick"
+  }
 }
