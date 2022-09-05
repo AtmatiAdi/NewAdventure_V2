@@ -12,6 +12,42 @@
         "custom_model_data": 1000002
       },
       "model": "darkpower:block/ancient_mossy_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000003
+      },
+      "model": "darkpower:block/shined_diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000004
+      },
+      "model": "darkpower:block/holy_stone_brick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000005
+      },
+      "model": "darkpower:block/meteor_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000006
+      },
+      "model": "darkpower:block/onyx_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000007
+      },
+      "model": "darkpower:block/sugar_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000008
+      },
+      "model": "darkpower:block/quartz_ore"
     }
   ]
 }

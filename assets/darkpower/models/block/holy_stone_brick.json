@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "darkpower:block/cube_spawner_all",
+    "textures": {
+        "all": "darkpower:block/holystone_brick"
+	}
+}

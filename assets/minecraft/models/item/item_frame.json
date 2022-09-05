@@ -18,6 +18,42 @@
     },
     {
       "predicate": {
+        "custom_model_data": 1000003
+      },
+      "model": "darkpower:item/shined_diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000004
+      },
+      "model": "darkpower:item/holy_stone_brick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000005
+      },
+      "model": "darkpower:item/meteor_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000006
+      },
+      "model": "darkpower:item/onyx_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000007
+      },
+      "model": "darkpower:item/sugar_block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000008
+      },
+      "model": "darkpower:item/quartz_ore"
+    },
+    {
+      "predicate": {
         "custom_model_data": 1000101
       },
       "model": "darkpower:item/decoration/path_small_stones"
