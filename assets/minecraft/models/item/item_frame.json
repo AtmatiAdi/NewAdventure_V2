@@ -141,6 +141,18 @@
         "custom_model_data": 1000302
       },
       "model": "darkpower:item/ornament/gold_stairs_two_snails"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000303
+      },
+      "model": "darkpower:item/ornament/big_gold_pattern_zip"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000304
+      },
+      "model": "darkpower:item/ornament/big_gold_pattern_zip_dot"
     }
   ]
 }
