@@ -126,6 +126,18 @@
     },
     {
       "predicate": {
+        "custom_model_data": 1000203
+      },
+      "model": "darkpower:item/statule/gold_jaguar_tooth"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000204
+      },
+      "model": "darkpower:item/statule/gold_jaguar_big_tooth"
+    },
+    {
+      "predicate": {
         "custom_model_data": 1000300
       },
       "model": "darkpower:item/ornament/gold_skull"
@@ -153,6 +165,18 @@
         "custom_model_data": 1000304
       },
       "model": "darkpower:item/ornament/big_gold_pattern_zip_dot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000305
+      },
+      "model": "darkpower:item/ornament/big_gold_pattern_single"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000306
+      },
+      "model": "darkpower:item/ornament/big_gold_pattern_single_corner"
     }
   ]
 }
