@@ -177,6 +177,42 @@
         "custom_model_data": 1000306
       },
       "model": "darkpower:item/ornament/big_gold_pattern_single_corner"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000400
+      },
+      "model": "darkpower:item/plant/corn_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000401
+      },
+      "model": "darkpower:item/plant/corn_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000402
+      },
+      "model": "darkpower:item/plant/corn_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000403
+      },
+      "model": "darkpower:item/plant/corn_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000404
+      },
+      "model": "darkpower:item/plant/corn_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000405
+      },
+      "model": "darkpower:item/plant/corn_5"
     }
   ]
 }
